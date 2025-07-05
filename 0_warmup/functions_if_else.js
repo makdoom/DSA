@@ -3,8 +3,6 @@
 AGENDA :
     - Funtions
     - If else statments
-    - Different loops
-    - Some programs
 
 */
 
