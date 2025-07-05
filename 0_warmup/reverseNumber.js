@@ -11,7 +11,8 @@ const reverseNumber = (n) => {
     n = Math.floor(n / 10);
   }
 
-  if (reverseNo < -2147483648 || reverseNo > 2147483647) return 0;
+  let range = 2 ** 31;
+  if (reverseNo < -range || reverseNo > range) return 0;
 
   return copyN < 0 ? -reverseNo : reverseNo;
 };
