@@ -1,13 +1,13 @@
 const removeDuplicates = (nums) => {
-  let uniqueEleIndx = 0;
+  let uniqueElementIndex = 0;
   for (let i = 0; i < nums.length; i++) {
-    if (nums[i] > nums[uniqueEleIndx]) {
-      uniqueEleIndx += 1;
-      nums[uniqueEleIndx] = nums[i];
+    if (nums[i] > nums[uniqueElementIndex]) {
+      uniqueElementIndex += 1;
+      nums[uniqueElementIndex] = nums[i];
     }
   }
 
-  return uniqueEleIndx + 1;
+  return uniqueElementIndex + 1;
 };
 
 let nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
