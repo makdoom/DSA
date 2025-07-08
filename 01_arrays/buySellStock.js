@@ -1,4 +1,4 @@
-let prices = [1, 6, 4, 3, 10]; //[7, 1, 5, 3, 6, 4];
+let prices = [8, 6, 4, 3, 10]; //[7, 1, 5, 3, 6, 4];
 
 let buy = prices[0];
 let sell = prices[0];
